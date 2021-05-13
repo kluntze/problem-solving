@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h> 
 
 
 int binary_search(int num_array[], int size, int item)
@@ -34,16 +33,10 @@ int main()
     
     size = sizeof(num_array)/sizeof(num_array[0]);
     
-    printf("The list: ");
-    for (int i = 0; i < sizeof(num_array)/sizeof(num_array[0]); ++i) {
-        printf("%d ", num_array[i]);
-    }
-    
     printf("\n\nInput an integer to search: ");
     scanf("%d", &item);
     
     int output = binary_search(num_array, size, item);
-
     if (output == 0) {
         printf("Number %d wasn't found.\n", item);
     } else {
