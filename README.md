@@ -1,2 +1,2 @@
 # study
-![https://www.codewars.com/users/coolint](https://www.codewars.com/users/coolint/badges/large)
+[![Codewars](https://www.codewars.com/users/coolint/badges/large)](https://www.codewars.com/users/coolint)
