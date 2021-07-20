@@ -4,7 +4,7 @@
 import re
 
 def domain_name(url):
-    remove = re.sub(r"https://|http://|www.|[.](com|net|org|edu|gov)", "", url)
+    remove = re.sub(r"https://|http://|www.", "", url)
     domain = re.search(r".[a-z-A-Z0-9]+", remove)
     return str(domain[0])
 
